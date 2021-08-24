@@ -1,16 +1,27 @@
-# This is a sample Python script.
+class Jumps:
+    def __init__(self, size, my_list):
+        self.size = size
+        self.my_list = my_list
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+    def minimum_jump(self):
+        jump = 0
+        i = 0
+        while i <= self.size:
+            try:
+                if self.my_list[i] == 0:
+                    print("0 encountered")
+                    i += 1
+                else:
+                    i += self.my_list[i]
+                    jump += 1
+                    # print("jumped to: ", self.my_list[i], "Jump: ", jump)
+            except IndexError:
+                print(jump)
+                exit()
+        print(jump)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+size = int(input("Enter size: "))
+list = [int(x) for x in input("Enter list: ").split()]
+jp = Jumps(size, list)
+jp.minimum_jump()
