@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="added a new question jail">
-      <change afterPath="$PROJECT_DIR$/decrypt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/max_non-ve_integers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcs_nqt.py" afterDir="false" />
+    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="Refactored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcs_nqt_Decode_Encode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcs_nqt_Decode_Encode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.tcs_nqt">
+  <component name="RunManager" selected="Python.tcs_nqt_Decode_Encode">
     <configuration name="decrypt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcs_nqt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tcs_nqt_Decode_Encode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +164,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tcs_nqt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tcs_nqt_Decode_Encode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tcs_nqt" />
+        <item itemvalue="Python.tcs_nqt_Decode_Encode" />
         <item itemvalue="Python.decrypt" />
         <item itemvalue="Python.t" />
         <item itemvalue="Python.hops" />
@@ -208,7 +204,7 @@
       <workItem from="1629125625807" duration="987000" />
       <workItem from="1629385877022" duration="756000" />
       <workItem from="1629646537832" duration="7850000" />
-      <workItem from="1629817970234" duration="1123000" />
+      <workItem from="1629817970234" duration="1503000" />
     </task>
     <task id="LOCAL-00001" summary="added a new question">
       <created>1628019234737</created>
@@ -245,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628267841785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added a new questions of tcs nqt and ninja">
+      <created>1629819108203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629819108203</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactored">
+      <created>1629819149617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629819149617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +279,9 @@
     <MESSAGE value="added a new question Book find no of turns minimum to get to a particular page number" />
     <MESSAGE value="added a new question jail and array diff" />
     <MESSAGE value="added a new question jail" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a new question jail" />
+    <MESSAGE value="added a new questions of tcs nqt and ninja" />
+    <MESSAGE value="Refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$max_non_ve_integers.coverage" NAME="max_non-ve_integers Coverage Results" MODIFIED="1628793429417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
