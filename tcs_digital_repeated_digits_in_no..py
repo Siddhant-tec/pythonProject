@@ -13,6 +13,8 @@ def has_doubles(nums):
         if len(number) == 3:
             if number[0] == number[1] == number[2]:
                 print(number)
+            elif number[0] == number[1] or number[1] == number[2] or number[2] == number[1]:
+                print(number)
             else:
                 continue
 
