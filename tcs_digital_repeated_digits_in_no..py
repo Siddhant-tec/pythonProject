@@ -1,10 +1,11 @@
-nums = list(input().rstrip().split())
+start = int(input())
+end = int(input())
+nums = list(map(str, range(start, end+1)))
 
 
 def has_doubles(nums):
     for number in nums:
-        y = ''.join(number)
-        if y[0] == y[1]:
+        if number[0] == number[1]:
             print(number)
         else:
             continue
