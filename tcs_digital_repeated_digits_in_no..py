@@ -16,7 +16,7 @@ def has_doubles(nums):
             if number[0] == number[1] == number[2]:
                 print(number)
                 count += 1
-            elif number[0] == number[1] or number[1] == number[2] or number[2] == number[1]:
+            elif number[0] == number[1] or number[1] == number[2] or number[2] == number[0]:
                 print(number)
                 count += 1
             else:
