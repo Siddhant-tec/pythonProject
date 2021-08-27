@@ -1,13 +1,18 @@
-users = list(map(str, input().rstrip().split()))
-freq = dict()
-for people in users:
-
-    if people in freq:
-        freq[people] += 1
+n = int(input())
+users = list()
+answer = list()
+for people in range(n):
+    person = input()
+    if person in users:
+        count = users.count(person)
+        answer.append(person+str(count))
+        users.append(person)
 
     else:
-        freq[people] = 1
+        users.append(person)
+        answer.append(person)
 
 
-print(freq)
-print(users)
+
+
+print(answer)
