@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="improved persistent_user_portal.py">
-      <change afterPath="$PROJECT_DIR$/LTI_count_palindrome.py" afterDir="false" />
+    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="Added various questions from LTI etc.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +221,8 @@
       <workItem from="1630305252233" duration="66000" />
       <workItem from="1630478966151" duration="741000" />
       <workItem from="1630483375668" duration="920000" />
-      <workItem from="1630521813401" duration="1358000" />
+      <workItem from="1630521813401" duration="1389000" />
+      <workItem from="1630606241042" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="added a new question">
       <created>1628019234737</created>
@@ -350,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630088138588</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added various questions from LTI etc.">
+      <created>1630523196935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1630523196936</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +393,8 @@
     <MESSAGE value="Added tcs_ninja_check_sum_is_0.py" />
     <MESSAGE value="Added persistent_find_element_uarray.py and persistent_user_portal.py" />
     <MESSAGE value="improved persistent_user_portal.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved persistent_user_portal.py" />
+    <MESSAGE value="Added various questions from LTI etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added various questions from LTI etc." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$persistent_find_element_uarray.coverage" NAME="persistent_find_element_uarray Coverage Results" MODIFIED="1630077278399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
