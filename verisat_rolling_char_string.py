@@ -4,9 +4,8 @@ answer = list()
 for i in range(len(roll)):
     for character in range(len(alphabets)):
         while character <= int(roll[i]):
-            x = chr(ord(alphabets[character]) + int(roll[i]))
-            answer.append(x)
+            alphabets[character] = chr(ord(alphabets[character]) + 1)
             break
         continue
 
-print(answer)
+print(alphabets)
