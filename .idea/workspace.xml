@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="added various infosys programs held in january 2022">
-      <change afterPath="$PROJECT_DIR$/duplicate_in_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subarray_With_given_Sum.py" afterDir="false" />
+    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="added duplicate_in_list.py">
+      <change afterPath="$PROJECT_DIR$/climbing stairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +52,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="shared-indexes" />
   </component>
-  <component name="RunManager" selected="Python.duplicate_in_list">
-    <configuration name="check_if_list_is_divisible" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.climbing stairs">
+    <configuration name="climbing stairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +66,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_if_list_is_divisible.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/climbing stairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.climbing stairs" />
         <item itemvalue="Python.duplicate_in_list" />
         <item itemvalue="Python.tcs_digital_array_rotation" />
         <item itemvalue="Python.subarray_With_given_Sum" />
         <item itemvalue="Python.infosys_good_number" />
-        <item itemvalue="Python.check_if_list_is_divisible" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +319,9 @@
       <workItem from="1647848661606" duration="21000" />
       <workItem from="1647848745305" duration="43000" />
       <workItem from="1647848871647" duration="1509000" />
+      <workItem from="1647851151664" duration="582000" />
+      <workItem from="1648004587819" duration="29000" />
+      <workItem from="1648004745084" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="added a new question">
       <created>1628019234737</created>
@@ -608,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643897866827</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="added duplicate_in_list.py">
+      <created>1647851168740</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1647851168740</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +635,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved the Added 3 digit functionality in  tcs_digital_repeated_digits_in_no..py.py (my tcs digital exam question). It now works for multiple duplicate digits in a 3-digit number." />
     <MESSAGE value="Improved the Added 3 digit functionality in  tcs_digital_repeated_digits_in_no..py.py (my tcs digital exam question)." />
     <MESSAGE value="Added tcs_ninja_check_sum_is_0.py" />
     <MESSAGE value="Added persistent_find_element_uarray.py and persistent_user_portal.py" />
@@ -651,7 +659,8 @@
     <MESSAGE value="added check_int_float.py.py" />
     <MESSAGE value="added palindorme_numbers.py" />
     <MESSAGE value="added sorting_list_withoutbuiltinfunc.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sorting_list_withoutbuiltinfunc.py" />
+    <MESSAGE value="added duplicate_in_list.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added duplicate_in_list.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$bank.coverage" NAME="bank Coverage Results" MODIFIED="1628233238868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -680,9 +689,10 @@
     <SUITE FILE_PATH="coverage/pythonProject$bits2.coverage" NAME="bits2 Coverage Results" MODIFIED="1631050659283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$verisat_rolling_char_string.coverage" NAME="verisat_rolling_char_string Coverage Results" MODIFIED="1631533637371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$amazon_sum_in_list.coverage" NAME="amazon_sum_in_list Coverage Results" MODIFIED="1631255281732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$climbing_stairs.coverage" NAME="climbing stairs Coverage Results" MODIFIED="1648005325751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$add_2_matrix.coverage" NAME="add_2_matrix Coverage Results" MODIFIED="1631266752949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$soting_list_without_builtinFunc.coverage" NAME="soting_list_without_builtinFunc Coverage Results" MODIFIED="1643887342707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$duplicate_in_list.coverage" NAME="duplicate_in_list Coverage Results" MODIFIED="1647850360584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$duplicate_in_list.coverage" NAME="duplicate_in_list Coverage Results" MODIFIED="1647851230066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$tcs_ninja_check_sum_is_0.coverage" NAME="tcs_ninja_check_sum_is_0 Coverage Results" MODIFIED="1631295233578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$check_if_list_is_divisible.coverage" NAME="check_if_list_is_divisible Coverage Results" MODIFIED="1643897724280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$infosys_set_bits.coverage" NAME="infosys_set_bits Coverage Results" MODIFIED="1643893399545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
