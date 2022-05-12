@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="added climbing stairs.py">
-      <change afterPath="$PROJECT_DIR$/sumiszerofor3.py" afterDir="false" />
+    <list default="true" id="f335e56c-c9f9-4ff1-a573-0d7add7e66ee" name="Changes" comment="added various programs as part of LTI training">
+      <change afterPath="$PROJECT_DIR$/powerset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,29 +50,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.sumiszerofor3">
-    <configuration name="LTI_Duplicate_Characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LTI_Duplicate_Characters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.powerset">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +65,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="powerset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/powerset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.powerset" />
         <item itemvalue="Python.sumiszerofor3" />
         <item itemvalue="Python.pythogorus_triplets" />
         <item itemvalue="Python.wipro_Odd_Even_List" />
         <item itemvalue="Python.subarray_With_given_Sum" />
-        <item itemvalue="Python.LTI_Duplicate_Characters" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +359,7 @@
       <workItem from="1652297123772" duration="5000" />
       <workItem from="1652298841298" duration="2276000" />
       <workItem from="1652320762846" duration="139000" />
-      <workItem from="1652376930589" duration="1608000" />
+      <workItem from="1652376930589" duration="4008000" />
     </task>
     <task id="LOCAL-00001" summary="added a new question">
       <created>1628019234737</created>
@@ -676,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652320770289</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="added various programs as part of LTI training">
+      <created>1652378598652</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1652378598652</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +701,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added tcs_ninja_check_sum_is_0.py" />
     <MESSAGE value="Added persistent_find_element_uarray.py and persistent_user_portal.py" />
     <MESSAGE value="improved persistent_user_portal.py" />
     <MESSAGE value="Added various questions from LTI etc." />
@@ -719,7 +725,8 @@
     <MESSAGE value="added sorting_list_withoutbuiltinfunc.py" />
     <MESSAGE value="added duplicate_in_list.py" />
     <MESSAGE value="added climbing stairs.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added climbing stairs.py" />
+    <MESSAGE value="added various programs as part of LTI training" />
+    <option name="LAST_COMMIT_MESSAGE" value="added various programs as part of LTI training" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,6 +782,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$tcs_q1.coverage" NAME="tcs count_prime_pairs Coverage Results" MODIFIED="1628019268287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$memory_game.coverage" NAME="memory_game Coverage Results" MODIFIED="1648809004635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Cumm_sum.coverage" NAME="Cumm_sum Coverage Results" MODIFIED="1631012989036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$powerset.coverage" NAME="powerset Coverage Results" MODIFIED="1652381825331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$3input_list.coverage" NAME="3input_list Coverage Results" MODIFIED="1630779271909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$bank.coverage" NAME="bank Coverage Results" MODIFIED="1628233238868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$tcs_nqt_Decode_Encode.coverage" NAME="tcs_nqt_Decode_Encode Coverage Results" MODIFIED="1629904075321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
