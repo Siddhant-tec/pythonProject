@@ -1,7 +1,7 @@
 rubles = int(input())
 A = int(input())
-B = 30
-C = 9
+B = int(input())
+C = int(input())
 count = 0
 
 while rubles > 0:
